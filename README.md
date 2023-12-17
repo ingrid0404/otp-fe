@@ -4,17 +4,14 @@ The purpose of this application is to have a visual representation of: [One time
 
 This app is built with React, Grommet, JavaScript.
 
-## Project Screen Shot(s)
+## Project Screen Shots
 
-#### Example:   
 
 [ PRETEND SCREEN SHOT IS HERE ]
 
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
 ## Installation and Setup Instructions
-
-#### Example:  
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
