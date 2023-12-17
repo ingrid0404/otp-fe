@@ -6,7 +6,7 @@ This app is built with React, Grommet, JavaScript.
 
 ## Project Screen Shots
 
-### Sumbit page 
+### Submit page 
 ![image](https://github.com/ingrid0404/otp-fe/assets/113686835/e3c59324-3b28-4393-807a-2c10e69cd758)
 
 
