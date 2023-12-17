@@ -6,10 +6,11 @@ This app is built with React, Grommet, JavaScript.
 
 ## Project Screen Shots
 
-Sumbit page 
+### Sumbit page 
 ![image](https://github.com/ingrid0404/otp-fe/assets/113686835/e3c59324-3b28-4393-807a-2c10e69cd758)
 
-OTP validation page 
+
+### OTP validation page 
 ![image](https://github.com/ingrid0404/otp-fe/assets/113686835/d3cdc7ee-ed1f-4fdc-9bdc-25b9981afc39)
 
 
