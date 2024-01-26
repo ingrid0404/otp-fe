@@ -1,12 +1,27 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const port = process.env.PORT || 3000;
 
 module.exports = {
   entry: './src/index.js',
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Output Management',
+    }),
+  ],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true
   },
   mode: 'development',
+  devtool: 'inline-source-map',
+  devServer: {
+    host: 'localhost',
+    port: port,
+    historyApiFallback: true,
+    open: true
+  },
   module: {
     rules: [
         {
@@ -22,17 +37,10 @@ module.exports = {
         },
         {
             test: /\.s[ac]ss$/i,
-            use: [
-              // Creates `style` nodes from JS strings
-              "style-loader",
-              // Translates CSS into CommonJS
-              "css-loader",
-              // Compiles Sass to CSS
-              "sass-loader",
-            ],
+            use: ["style-loader", "css-loader", "sass-loader"],
         }
     ]
-    }
+  }
 };
 
 /*
